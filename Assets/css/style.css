@@ -1,0 +1,165 @@
+:root {
+    --black: #000000;
+    --gray: #1E1A13;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    top: 0;
+
+}
+
+nav {
+    height: 73px;
+
+}
+
+header {
+    width: 1280px;
+    width: 100%;
+    height: 1050px;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+/*iconos*/
+.iconos {
+    text-align: center;
+   /* margin: 1em 0;*/
+    border: solid 1px #1E1A13;
+    background-color: #1E1A13;
+    
+}
+
+.iconos i {
+    display: block;
+    padding: 0.5em;
+}
+
+.icons {
+    width: 22%;
+    padding: 1%;
+    display: inline-block;
+}
+
+.iconos h2 {
+    /*titulo caracteristicas*/
+    /*padding: px;*/
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    /*grosor letra*/
+}
+.container-icono{
+    width: 70%;
+    margin: auto;
+    margin-top: 66px;
+    margin-bottom: 45px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 66px;
+
+}
+
+.icono-p {
+    font-size: 25px;
+    font-weight: 100;
+
+}
+/*3 imagenes de iguanas*/
+/*.container-img {
+    
+    margin: 0 4px;
+}*/
+
+
+/*.container2{
+    margin-left: 50px;
+    text-align: center;
+}*/
+.container img{
+
+    width: 390px;
+    height: 250px;
+    margin-right: 10px;
+}
+/*section imagenes para centrar*/
+.imagenes3{
+    margin: 100px 0;
+    
+}
+.iguana-contenedor {
+    display: inline-block;
+    width: 30,5%;
+    vertical-align: middle;
+   
+
+}
+
+   
+
+.iguana {
+    width: 90%;
+
+}
+/*texto con imagen iguana*/
+.texto {
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+
+
+
+}
+
+.img-texto {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img-texto img {
+    width: 399px;
+    height: 237px;
+}
+
+.texto-p {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 100;
+    
+
+}/*footer*/
+footer a:hover{
+color: goldenrod;
+
+
+}
+footer a{
+    color:var(--white);
+    text-decoration: none;
+    
+    }
+footer{
+    background-color: var(--gray);
+    text-align: center;
+    padding: 10px;
+}
